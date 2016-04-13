@@ -1,6 +1,6 @@
 # Avro-RPC-Sample
 
-This is a simple RPC implementation using Apache Avro.The sample consist of 3 maven modules: 
+This is a simple RPC implementation using [Apache Avro](http://avro.apache.org/).The sample consist of 3 maven modules: 
   * Protocol
   * Server
   * Client
