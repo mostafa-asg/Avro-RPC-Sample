@@ -1,0 +1,41 @@
+{
+    "namespace" : "sample.rpc.protocol" ,
+    "protocol" : "Calculator" ,
+
+    "messages": {
+
+         "add": {
+             "request": [
+                {"name": "a", "type": "int"},
+                {"name": "b", "type": "int"}
+             ],
+             "response": "int"
+         } ,
+
+         "subtract": {
+             "request": [
+                {"name": "a", "type": "int"},
+                {"name": "b", "type": "int"}
+             ],
+             "response": "int"
+         } ,
+
+          "multiply": {
+              "request": [
+                 {"name": "a", "type": "int"},
+                 {"name": "b", "type": "int"}
+              ],
+              "response": "int"
+          } ,
+
+           "divide": {
+               "request": [
+                  {"name": "a", "type": "int"},
+                  {"name": "b", "type": "int"}
+               ],
+               "response": "int"
+           }
+
+     }
+
+}
